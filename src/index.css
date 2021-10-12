@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+form {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+form button {
+  margin-left: 0.5em;
+  padding: 0.3em;
+  font-stretch: 2;
+}
+
+form svg {
+  border: 1px solid #6366F1;
+  background-color: lightgrey;
+  border-radius: 50%;
+  padding: 0.5em;
+}
+
+form label {
+  margin: 0 0.5em;
+}
+
+form input {
+  padding: 0.1em;
+  font-weight: 200;
+  font-size: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background-color: #6366F1;
+  color: lightgrey;
+  text-align: center;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: xx-large;
+  padding: 0.5em;
+}
